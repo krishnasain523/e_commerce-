@@ -17,7 +17,7 @@ server.use(
 
 const PORT = process.env.PORT;
 
-////Convert json data in javascript object
+//Convert json data in javascript object
 
 server.use(express.json());
 

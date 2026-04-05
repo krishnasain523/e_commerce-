@@ -13,12 +13,6 @@ git add.
 git commit -m "message"
 git push
 
-
-
-
-
-
-
 //Dependencies:
 1-
 2-
