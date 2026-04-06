@@ -4,12 +4,16 @@
   },
   "type": "module",
   "dependencies": {
+    "cloudinary": "^2.9.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "dotenv": "^17.4.0",
     "express": "^5.2.1",
     "express-json": "^1.0.0",
+    "multer": "^2.1.1",
     "nodemon": "^3.1.14",
-    "passport": "^0.7.0"
+    "passport": "^0.7.0",
+    "react-router": "^7.14.0",
+    "router-dom": "^3.0.3"
   }
 }
