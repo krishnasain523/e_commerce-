@@ -4,14 +4,14 @@ const AddProduct = () => {
   <div className='bg-gray-100 text-black m-8 rounded-xl p-6 border-2 border-emerald-500 w-full h-1/2'>
     <form action="">
       <div className='flex justify-center mb-4'><div className='w-30 h-30 border rounded-2xl flex justify-center items-center'>
-        <img src="https://static.vecteezy.com/system/resources/previews/015/337/675/original/transparent-upload-icon-free-png.png" alt="" /></div></div>
+        <img src="https://static.vecteezy.com/system/resources/previews/015/337/675/original/transparent-upload-icon-free-png.png" alt=""  /></div></div>
       <div className='flex gap-2 m-4'>
         <span>Title:</span>
-      <input className='border w-full border-gray-300 outline-none rounded' type="text" />
+      <input className='border w-full border-gray-300 outline-none rounded' type="text" name='title' />
       </div>
       <div className='flex gap-2 m-4 items-center'>
         <span>Description:</span>
-      <div className='h-full w-full'><textarea className='border w-full grid-cols-12 h- border-gray-300 outline-none rounded' name="" id=""></textarea>
+      <div className='h-full w-full'><textarea className='border w-full grid-cols-12 h- border-gray-300 outline-none rounded' name="description" id=""></textarea>
       </div>
       </div>
       <div className='flex gap-2 m-4'>

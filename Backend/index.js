@@ -2,7 +2,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-import Productroute from "./Src/Routes/productroute"
+import productroute from "./Src/Routes/productroute.js"
 //Dotenv
 dotenv.config();
 //Server
@@ -26,7 +26,7 @@ server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 
 // Test Route
-server.use("/api",Productroute);
+server.use("/api",productroute);
 server.get("/", (req, res) => {
   res.send("Server is running");
 });
